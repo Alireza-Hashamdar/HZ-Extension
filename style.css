@@ -1,0 +1,129 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+body{
+    direction: rtl;
+    background-image: url('./images/earth-sunrise-3840x2160-12523.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 40%;
+    min-width: 30rem;
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+form{
+    position: relative;
+}
+input{
+    border-bottom: 2px solid;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 75px;
+}
+input::placeholder{
+    color: white;
+    text-align: center;
+}
+button{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url('./Images/search-icon.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.links{
+    margin-top: 70px;
+    display: flex;
+    direction: ltr;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    width: 1.3rem;
+}
+
+
+
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    width: 30rem;
+}
+
+.content {
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
