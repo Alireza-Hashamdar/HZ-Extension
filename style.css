@@ -1,18 +1,16 @@
 
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
-    background: none;
+    border-radius: 10px;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-weight: 100;
 }
 body{
     direction: rtl;
-    background-image: url('./images/earth-sunrise-3840x2160-12523.jpg');
+    background-image: url('./images/gargantua-black-2880x1800-9621.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +22,7 @@ body{
     padding: 0;
 }
 .card{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.507);
     width: 50%;
     height: 40%;
     min-width: 30rem;
@@ -44,18 +42,18 @@ input{
     border-radius: 8px;
     display: block;
     width: 100%;
-    padding: 0.5rem;
     font-size: 1.2rem;
     margin-top: 75px;
+    color: black;
 }
 input::placeholder{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 button{
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url('./Images/search-icon.png');
+    background-image: url('./images/search.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,52 +76,3 @@ a img{
     width: 1.3rem;
 }
 
-
-
-
-.header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.5em;
-    width: 30rem;
-}
-
-.content {
-    padding: 20px;
-}
-
-.input-container {
-    margin-bottom: 15px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-}
-
-.completed {
-    text-decoration: line-through;
-    color: #999;
-}
-
-#checkbox {
-    margin-right: 10px;
-    cursor: pointer;
-}
